@@ -1,5 +1,5 @@
-import {Tutorial} from "./model/tutorial.model";
+import {Tutorial} from './model/tutorial.model';
 
-export interface AppState{
+export interface AppState {
   readonly tutorial: Tutorial[];
 }
